@@ -210,13 +210,6 @@ def getSimilarity():
 
 @app.route('/')
 def index():
-    title = 1
-    priority = 1
-    shortdesc = 1
-    task_id = 1
-    task = {'id': task_id, 'title': title, 'shortdesc': shortdesc, 'priority': priority}
-
-    db.cclecture.insert_one(task)
     return "<h1>Welcome to Iris Prediction server !!</h1>"
 
 
